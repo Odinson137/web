@@ -1,0 +1,330 @@
+
+
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;           
+  }
+body::-webkit-scrollbar-track {
+    background: gray;
+    opacity: 0.5;     
+}
+body::-webkit-scrollbar-thumb {
+    background-color: white;   
+    border-radius: 20px;      
+}
+
+
+header {
+    margin-left: -150px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Caveat', cursive;
+    
+
+}
+.menu {
+    padding-right: 200px;
+    text-transform: uppercase;
+    float: right;
+}
+
+nav {
+    margin-left: 30px;
+    width: 15vw;
+    border-right: 5px groove white;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-top: 10%;
+    position: fixed;
+    color: white;
+}
+
+nav li:hover a {
+    transition: 0.2s;
+    color: gray;
+}
+
+nav li:hover {
+    transition: 0.2s;
+    color: rgb(246, 0, 0);
+}
+
+nav ul li { 
+    padding-bottom: 3vw;
+}
+
+nav ul li a{
+    padding-bottom: 4vw;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+main {
+
+    width: 100%;
+    float:left;
+}
+
+.title_book {
+    position: relative;
+    margin: 10vw 10vw 10vw 20vw;
+    display: flex;
+}
+.title_book img {
+    border: 1px solid white;
+    width: 22vw;
+    height: 33vw;
+}
+
+.book_info {
+    width: 100%;
+    text-align: center;
+    margin-left: 150px;
+    color: white;
+}
+
+.title {
+    font-size: 2.5vw;
+    color: gold;
+}
+
+.other_info {
+    width: 100%;
+    margin-top: -20px;
+    font-size: 20px;
+    display: flex;
+}
+
+td {
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+.one_string {
+    text-align: center;
+    font-size: 1.6vw;
+    color: white;
+}
+
+li {
+    width: 350px;
+    text-align: left;
+}
+
+
+table {
+    margin-bottom: 30px;
+}
+
+.best {
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: 39px;
+    color: white;
+}
+
+.best:hover {
+    transition: 0.2s;
+    color: gray;
+}
+
+marquee {
+    font-size: 24px;
+    
+}
+
+.about {
+    margin: 200px  300px 300px 400px;
+    color: white;
+}
+
+.titles {
+    text-align: center;
+
+    color: gold;
+    font-size: 40px;
+}
+
+.book_text {    
+    width: 100%;
+    text-align: justify;
+    text-indent: 100px;
+    
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    min-width: 600px;
+    
+}
+
+
+
+.images {
+    margin: 10vw 15vw 10vw 20vw;
+}
+
+.images img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+
+
+.reading {
+    min-width: 60%;
+
+    margin: 200px 300px 100px 400px;
+}
+
+
+
+.frame_in_book {
+    float: left;
+    margin-top: 100px;
+}
+
+iframe {
+    border: 0px solid black;
+}
+
+.comments {
+    width: 50%;
+    margin: 10vw 25vw 5vw 25vw;
+    color: white;
+}
+
+.comment {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+.name_comment {
+    display: flex;
+}
+
+.users {
+    color: red;
+}
+
+.name_comment p {
+    font-family: 'Amatic SC', cursive;
+    padding-left: 70px;
+    font-size: 1.3vw;
+}
+
+.text_comment {
+    font-size: 1.5vw;
+    padding: 20px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 10px;
+}
+
+.gold {
+    color: gold;
+}
+
+.silver {
+    color: silver;
+}
+
+
+
+.post_form {
+    color: white;
+}
+.small_form {
+    border: none;
+    height: 55px;
+    width: 420px;
+    background-color: #383838;
+    border-radius: 3px;
+    box-shadow: none;
+    color: white;
+    margin: 0px 8px 0px 8px;
+    padding: 0px 0px 0px 20px;
+}
+
+.big_small {
+    border: none;
+    margin-top: 25px;
+    margin-left: 2px;
+    height: 200px;
+    width: 860px;
+    background-color: #383838;
+    border-radius: 3px;
+    color: rgb(255, 254, 254);
+    padding: 20px;
+}
+
+
+.bt_form {
+    margin-top: 30px;
+}
+
+.bt_form a {
+    width: 200px;
+    background-color: #383838;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.bt_form:hover a{
+    transition: 0.2s;
+    background-color: white ;
+    color: black;
+}
+
+.bt_form:active {
+    transform: scale(1.1);
+}
+
+
+.bottom_menu {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    height: 80px;
+    padding-top: 45px;
+}
+
+.social_item {
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.social_item:hover {
+    color: rgb(76, 73, 73);
+    opacity: 0.3s;
+}
+
+.cycle_tower {
+    color: white;
+    margin: 200px 300px 100px 400px;
+}
+
+.cycle_tower > table {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+.towers {
+    width: 100%;
+    opacity: 80%;
+}

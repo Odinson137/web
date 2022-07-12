@@ -1,0 +1,488 @@
+/* all */
+
+
+
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 6px;               
+  }
+  body::-webkit-scrollbar-track {
+    background: rgb(128, 128, 128, 50%);
+    /* opacity: 1; */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 255, 255); 
+    border-radius: 20px;    
+  }
+
+header {
+    margin-left: -150px;
+    position: fixed;
+    width: 100%;
+    font-family: 'Caveat', cursive;
+    
+
+}
+.menu {
+    padding-right: 10%;
+    text-transform: uppercase;
+    float: right;
+}
+
+.steven {
+    margin-left: 500px;
+    width: 100px;
+    float: left;
+    background-color: white;
+}
+
+header img {
+    margin: 0px 100px 100px 20px;
+    width: 120px;
+    height: 70px;
+}
+
+/* main */
+
+.main_text {
+    float: left;
+}
+
+.main_SK {
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+
+
+h1{
+    color: white;
+    font-size: 7vw;
+}
+h2{
+    color: white;
+    font-size: 3.5vw;
+}
+
+.main_SK a {
+    text-decoration: none;
+}
+
+.button {
+    font-size: 30px;
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    color: black;
+}
+
+.button:active {
+    background-color: black;
+    transform: translate(0, 20px);
+    transition: 0;
+}
+
+.button:hover {
+    transition: 1s;
+    background-color: rgb(246, 213, 213);
+}
+
+.main_citat {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 26px;
+}
+
+.baloons {
+    width: 20vw;
+    margin-top: -6%;
+}
+
+
+
+
+/* .a_main {
+    
+    
+} */
+
+/* nav  */
+
+
+
+/* nav */
+
+/* all */
+
+
+.birthday {
+    font-size: 36px;
+    color: white;
+}
+
+.citat {
+    width: 500px;
+    font-size: 30px;
+    color: white;
+    margin-left: 500px;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.main_hr {
+    background-color: red;
+    color: red;
+}
+
+/* .after_main {
+
+} */
+
+.after_main {
+    display: block;
+}
+
+.about_ST_first {
+    background-image: url("photo/1390772-download-stephen-king-wallpapers-2560x1536-for-iphone.jpg");
+    margin-left: -200px;
+    
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+  
+}
+
+.about_Ssecond {
+    background-image: url("photo/547369.jpeg");
+    margin-left: -200px;
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat;   
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.about_third {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photo/king_323.jpg");
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat; 
+    display: flex;
+    text-align: center;
+    
+}
+
+.about_4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photo/2532866144.jpg");
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat; 
+    display: flex;
+    text-align: center;
+    
+}
+
+.about_5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photo/1_BZtkA_tUfBhGFFcCDLObiw.jpeg");
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat; 
+    display: flex;
+    text-align: center;
+    
+}
+
+.about_6 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photo/upload-16-pic4_zoom-1500x1500-43201.jpg");
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat;  
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.about_last {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("photo/4ab4b4d7b85267243f329108c0680eed.jpg");
+    background-attachment: fixed;
+    height: 60vw;   
+    background-repeat: no-repeat; 
+    display: flex;
+    text-align: center;
+    
+}
+
+
+.citat {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 50%;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20%;
+}
+
+.citat-second {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 190%;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20%;
+
+}
+
+.citat-third {
+    float: right;
+    width: 25vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Jost', sans-serif;
+    margin-top: 20%;
+
+}
+
+.citat-4 {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 150%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+
+}
+
+.citat-5 {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: rgb(40, 40, 40);
+    margin-left: 60%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+}
+
+.citat-6 {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    margin-left: 70%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+
+}
+
+.citat-last_1 {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 4%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+
+}
+
+.citat-last_2 {
+    width: 35vw;
+    font-size: 2.5vw;
+    color: white;
+    margin-left: 32%;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20%;
+
+}
+
+.image_after_ballons {
+    float: left;
+    /* width: 100%; */
+    width: 35vw;
+    font-size: 10vw;
+    height: auto;
+    
+}
+
+
+
+.menu_left {
+    float: left;
+    color: white;
+}
+
+
+
+/* main */
+
+.books_main {
+    max-width: 100%;
+    float: left;
+    margin: 200px 200px 200px 300px;
+}
+
+/* books */
+
+.book a div{
+    background: #000; 
+    overflow: hidden;  
+}
+.book a div img{
+    width: auto;
+    opacity: 1;
+    transition: opacity 124ms linear, transform 124ms linear; 
+	height: 500px;
+    display: block; 
+}
+.book a:hover div img{
+    opacity: 0.8;
+    transform: scale(1.05); 
+}
+
+
+.book {
+    max-width: 100%;
+    display: flex;
+    max-height: 500px;
+    margin-bottom: 200px;
+}
+
+.book a {
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+
+.book_title:hover {
+    color: rgb(216, 51, 51);
+}
+
+.book_title a:hover {
+    color: gold;
+}
+
+.book_info {
+    margin-left: 100px;
+    color: white;
+}
+
+.book_title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -10px;
+    color: white;
+} 
+
+.book_text {    
+    text-align: justify;
+    text-indent: 30px;
+    
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    min-width: 600px;
+    
+}
+
+.hr {
+    margin-left: 100px;
+    margin-right: -50px;
+}
+ .gold_hr {
+    margin-left: 100px;
+    margin-right: -50px;
+    background-color: gold;
+}  
+
+/* books */
+
+#end {
+    color: white;
+}
+
+#main_books:visited {
+    color: gray;
+}
+
+
+.bottom_menu {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: rgb(30, 30, 30);
+    height: 80px;
+    padding-top: 45px;
+}
+
+.social_item {
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.social_item:hover {
+    color: rgb(76, 73, 73);
+    opacity: 0.3s;
+}
+
+
+
+/* source */
+
+.source_main {
+    float: left;
+    margin-left: 10vw;
+    margin-top: 10%;
+}
+
+table {
+    width: 90%;
+    font-size: 1.5vw;
+    color: white;
+}
+
+
+
+th {
+    border: 1px solid white;
+    border-color: white;
+}
+
+td {
+    padding: 10px;
+    border-color: white;
+}
+
+.number {
+    text-align: center;
+}
+
+.materials {
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.small_bools {
+    float: left;
+    height: 50px;
+}
